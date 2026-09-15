@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dreams & Miracles 💋 | Waxing & Massages</title>
+
+  <meta name="description"
+    content="Dreams & Miracles offers luxury waxing and massage experiences. Book your self-care moment today.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">
+      Dreams <span>&</span> Miracles 💋
+    </a>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+      <p class="eyebrow">DREAMS & MIRACLES 💋</p>
+
+      <h1>
+        Your Beauty.<br>
+        Your <em>Moment.</em>
+      </h1>
+
+      <p class="hero-text">
+        Luxury waxing and massage experiences
+        created to help you feel confident,
+        relaxed, and beautiful.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#services" class="button">
+          Explore Services
+        </a>
+
+        <a href="#contact" class="button button-outline">
+          Contact Us
+        </a>
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+
+      <p class="eyebrow">WELCOME TO DREAMS & MIRACLES</p>
+
+      <h2>
+        A little luxury<br>
+        goes a <em>long way.</em>
+      </h2>
+
+      <p>
+        At Dreams & Miracles, we believe self-care
+        is more than a routine. It is a moment
+        to slow down, feel good, and make yourself
+        a priority.
+      </p>
+
+      <p>
+        Our goal is to create a beautiful,
+        comfortable experience with services
+        designed around your personal needs.
+      </p>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="section services">
+
+      <p class="eyebrow">OUR SERVICES</p>
+
+      <h2>
+        Treat yourself<br>
+        to <em>something special.</em>
+      </h2>
+
+      <div class="service-grid">
+
+        <article class="service-card">
+          <div class="service-number">01</div>
+
+          <h3>Waxing</h3>
+
+          <p>
+            Smooth, confident, and cared for.
+            Explore our waxing services and
+            enjoy a personalized self-care experience.
+          </p>
+
+          <p class="service-note">
+            Ask about available waxing services
+            and pricing.
+          </p>
+        </article>
+
+
+        <article class="service-card">
+          <div class="service-number">02</div>
+
+          <h3>Massages</h3>
+
+          <p>
+            Take a moment to unwind.
+            Enjoy a relaxing massage experience
+            in a calm and welcoming atmosphere.
+          </p>
+
+          <p class="service-note">
+            Ask about available massage services,
+            durations, and pricing.
+          </p>
+        </article>
+
+
+        <article class="service-card">
+          <div class="service-number">03</div>
+
+          <h3>Self-Care</h3>
+
+          <p>
+            Make time for yourself.
+            Your comfort, confidence, and
+            personal care deserve attention.
+          </p>
+
+          <p class="service-note">
+            Contact us to find the right service
+            for your needs.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section class="experience">
+
+      <div class="experience-content">
+
+        <p class="eyebrow">THE DREAMS & MIRACLES EXPERIENCE</p>
+
+        <h2>
+          You deserve<br>
+          to feel <em>amazing.</em>
+        </h2>
+
+        <p>
+          From your first message to your
+          appointment, we want your experience
+          to feel special.
+        </p>
+
+        <a href="#contact" class="button">
+          Get In Touch
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+
+      <p class="eyebrow">LET'S CONNECT</p>
+
+      <h2>
+        Your next<br>
+        self-care moment<br>
+        starts <em>here.</em>
+      </h2>
+
+      <p>
+        Ready to book or have questions
+        about our services? Reach out today.
+      </p>
+
+      <div class="contact-buttons">
+
+        <a href="tel:8038097580" class="button">
+          Call 803-809-7580
+        </a>
+
+        <a
+          href="https://www.instagram.com/unbothered_lela/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button-outline"
+        >
+          Instagram @unbothered_lela
+        </a>
+
+      </div>
+
+      <p class="contact-note">
+        Please contact us for appointment
+        availability, service details, and pricing.
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <p class="footer-logo">
+      Dreams & Miracles 💋
+    </p>
+
+    <p>
+      Waxing • Massages • Self-Care
+    </p>
+
+    <p>
+      © 2026 Dreams & Miracles. All rights reserved.
+    </p>
+
+  </footer>
+
+</body>
+</html>
+pi
