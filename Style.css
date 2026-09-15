@@ -1,0 +1,350 @@
+
+:root {
+  --black: #171513;
+  --deep-black: #0f0e0d;
+  --cream: #f8f3eb;
+  --gold: #b8955a;
+  --soft-gold: #d8bd8a;
+  --text: #302b27;
+  --muted: #756d64;
+  --line: #ded4c5;
+  --white: #fffaf3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--text);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8;
+}
+
+a {
+  transition: 0.3s ease;
+}
+
+.navbar {
+  background: var(--black);
+  color: white;
+  padding: 23px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.logo span {
+  color: var(--soft-gold);
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #eee5d8;
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: var(--soft-gold);
+}
+
+.hero {
+  background:
+    linear-gradient(
+      rgba(23, 21, 19, 0.67),
+      rgba(23, 21, 19, 0.85)
+    ),
+    url("https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1800&q=85")
+    center / cover;
+
+  color: white;
+  text-align: center;
+  padding: 150px 7%;
+  min-height: 610px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eyebrow {
+  color: var(--gold);
+  letter-spacing: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(52px, 8vw, 90px);
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 28px;
+}
+
+em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.hero-text {
+  color: #e6ded4;
+  max-width: 520px;
+  margin-bottom: 35px;
+}
+
+.hero-buttons,
+.contact-buttons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--black);
+  padding: 14px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 1px solid var(--gold);
+}
+
+.button:hover {
+  background: var(--soft-gold);
+  border-color: var(--soft-gold);
+}
+
+.button-outline {
+  background: transparent;
+  color: white;
+  border-color: var(--soft-gold);
+}
+
+.button-outline:hover {
+  color: var(--black);
+}
+
+.section {
+  padding: 100px 9%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(40px, 5vw, 62px);
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 28px;
+}
+
+.about {
+  text-align: center;
+  max-width: 850px;
+}
+
+.about p:not(.eyebrow) {
+  color: var(--muted);
+  margin: 0 auto 20px;
+  max-width: 650px;
+}
+
+.services {
+  max-width: 1200px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 45px;
+}
+
+.service-card {
+  border: 1px solid var(--line);
+  padding: 35px 28px;
+  background: var(--white);
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--gold);
+}
+
+.service-number {
+  color: var(--gold);
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.service-card h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px 0 12px;
+}
+
+.service-card p {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.service-note {
+  margin-top: 20px;
+  font-size: 12px !important;
+  font-style: italic;
+}
+
+.experience {
+  background:
+    linear-gradient(
+      rgba(23, 21, 19, 0.7),
+      rgba(23, 21, 19, 0.85)
+    ),
+    url("https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1800&q=85")
+    center / cover;
+
+  color: white;
+  padding: 110px 9%;
+  text-align: center;
+}
+
+.experience-content {
+  max-width: 650px;
+  margin: auto;
+}
+
+.experience h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(42px, 5vw, 65px);
+  line-height: 1.1;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.experience p:not(.eyebrow) {
+  color: #d7ccc0;
+  margin-bottom: 30px;
+}
+
+.contact {
+  text-align: center;
+  max-width: none;
+  background: var(--black);
+  color: white;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact p:not(.eyebrow) {
+  color: #d4c9bc;
+  max-width: 550px;
+  margin: 0 auto 30px;
+}
+
+.contact-note {
+  font-size: 12px;
+  margin-top: 25px !important;
+}
+
+footer {
+  background: var(--deep-black);
+  color: #a9a097;
+  text-align: center;
+  padding: 35px 7%;
+  font-size: 12px;
+}
+
+.footer-logo {
+  color: var(--soft-gold);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+footer p {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+
+  .navbar {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  nav {
+    gap: 15px;
+  }
+
+  .hero {
+    padding: 100px 7%;
+    min-height: 540px;
+  }
+
+  .hero h1 {
+    font-size: 55px;
+  }
+
+  .section {
+    padding: 70px 7%;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience {
+    padding: 80px 7%;
+  }
+
+  .contact {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .button {
+    padding: 13px 20px;
+  }
+
+}
